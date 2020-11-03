@@ -1,0 +1,40 @@
+body{
+    background-image:url(fon.jpg);
+    background-size: 100%;
+} 
+.foto {
+    transition: 1s; /* Время эффекта */
+   }
+   .foto:hover {
+    transform: scale(1.2); /* Увеличиваем масштаб */
+   }
+.foto{
+    border: double;
+}
+.items{
+   text-align: center;
+}
+img {
+    transition: 2s; /* Время эффекта */
+   }
+   img:hover {
+    transform: scale(1.1); /* Увеличиваем масштаб */
+   }
+ .space 
+            {   padding: 20px; 
+                height: 270px;
+                width: 220px;
+                background: #e7e9e7; 
+                border: double;
+                margin: 15px;
+                display: inline-block;
+                text-align: center;
+                
+            }
+            img { border: 4px solid ;
+            }
+            .box{
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+            }

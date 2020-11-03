@@ -1,0 +1,27 @@
+body {
+	 background-image:url(1504144650_c0e815cf1576c720a7d40542268ae613.gif);
+    background-size: 100%;
+}
+
+.container {
+	display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+    
+	
+}
+.content{
+    width: 40%;
+    height: 100vh;
+    align-items: center;
+}
+h1 {
+    font-size: 35px;
+    color: rgba(0,0,0,0.7);
+   text-shadow: 6px 6px 0px rgba(0,0,0,0.1);
+
+}
+p{
+    font-size: 20px;
+    font-weight: 500;
+}
